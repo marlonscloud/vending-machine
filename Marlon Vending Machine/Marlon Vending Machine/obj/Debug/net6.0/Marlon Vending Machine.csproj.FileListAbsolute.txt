@@ -1,0 +1,62 @@
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\appsettings.json
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.staticwebassets.runtime.json
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.exe
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.deps.json
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.runtimeconfig.json
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.dll
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.pdb
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.csproj.AssemblyReference.cache
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.AssemblyInfoInputs.cache
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.AssemblyInfo.cs
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.csproj.CoreCompileInputs.cache
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.RazorAssemblyInfo.cache
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.RazorAssemblyInfo.cs
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets\msbuild.Marlon Vending Machine.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets\msbuild.build.Marlon Vending Machine.props
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Marlon Vending Machine.props
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Marlon Vending Machine.props
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\scopedcss\bundle\Marlon Vending Machine.styles.css
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\scopedcss\projectbundle\Marlon Vending Machine.bundle.scp.css
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.dll
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\refint\Marlon Vending Machine.dll
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.pdb
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.genruntimeconfig.cache
+C:\Users\mdedakis\source\repos\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\ref\Marlon Vending Machine.dll
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\appsettings.json
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.staticwebassets.runtime.json
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.exe
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.deps.json
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.runtimeconfig.json
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.dll
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\bin\Debug\net6.0\Marlon Vending Machine.pdb
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.csproj.AssemblyReference.cache
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.AssemblyInfoInputs.cache
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.AssemblyInfo.cs
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.csproj.CoreCompileInputs.cache
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.RazorAssemblyInfo.cache
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.RazorAssemblyInfo.cs
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets\msbuild.Marlon Vending Machine.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets\msbuild.build.Marlon Vending Machine.props
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Marlon Vending Machine.props
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Marlon Vending Machine.props
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\scopedcss\bundle\Marlon Vending Machine.styles.css
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\scopedcss\projectbundle\Marlon Vending Machine.bundle.scp.css
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.dll
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\refint\Marlon Vending Machine.dll
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.pdb
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\Marlon Vending Machine.genruntimeconfig.cache
+C:\Users\mdedakis\source\repos\vending-machine-oxford-economics\Marlon Vending Machine\Marlon Vending Machine\obj\Debug\net6.0\ref\Marlon Vending Machine.dll
