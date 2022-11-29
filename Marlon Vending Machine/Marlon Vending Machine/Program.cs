@@ -1,5 +1,6 @@
 using Marlon_Vending_Machine.Domains;
 using Marlon_Vending_Machine.Interfaces;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,12 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Styles")),
+    RequestPath = "/Styles"
+});
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
