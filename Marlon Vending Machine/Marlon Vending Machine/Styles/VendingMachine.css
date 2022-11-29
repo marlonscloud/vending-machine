@@ -14,6 +14,24 @@
     display: flex;
 }
 
+.products {
+    justify-content: space-around;
+}
+
+.products:hover {
+    cursor: pointer;
+}
+
+.products img {
+    width: 4em;
+    height: 4em;
+    border-radius: 40px;
+}
+
+.products p {
+    margin-top: 10px;
+}
+
 .weight-size-fields {
     display: none;
 }

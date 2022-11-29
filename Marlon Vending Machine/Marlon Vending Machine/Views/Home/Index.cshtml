@@ -5,7 +5,7 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome to Marlon's Vending Machine</h1>
-    
+
     <div class="overlay"></div>
     <div class="scanline"></div>
     <div class="wrapper">
@@ -16,29 +16,47 @@
                     <img src="https://media-exp1.licdn.com/dms/image/D4E03AQEcDTbjIizRPg/profile-displayphoto-shrink_400_400/0/1669375061863?e=1675296000&v=beta&t=XhjPFtVMR-m6zdxhYH0c-bYyH85GLhcUWPjN03Fo9pg" alt="Marlon" width="740" height="729" id="logo-v" />
                 </div>
                 <div class="col two">
-                    <p>This vending machine will accept money, make change, maintain inventory, and dispense products. All the things that you might expect a vending machine to accomplish.</p>
+                    <p>This vending machine will accept money, provide change and dispense products. All the things that you might expect a vending machine to accomplish.</p>
                 </div>
             </header>
-            
+
             <div>
                 <a id="insert-coin-button" class="button">
                     <p id="coin-insert" class="insert-coin-ready">INSERT COIN</p>
                 </a>
             </div>
-            
+
+            <div class="products flex">
+                <div id="coke">
+                    <img src="https://img.freepik.com/premium-vector/pixel-art-hand-holding-cola-bottle-icon-8bit_41992-873.jpg" alt="cola bottle image" />
+                    <p>$1.00</p>
+                </div>
+                <div id="crisps">
+                    <img src="https://ih1.redbubble.net/image.1071017887.1773/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg" alt="chips image" />
+                    <p>$0.50</p>
+                </div>
+                <div id="candy">
+                    <img src="https://img.freepik.com/premium-vector/ice-cream-pixel-art-icon-frozen-candy-logo-8bit-sprite_418367-202.jpg?w=2000" alt="candy image" />
+                    <p>$0.65</p>
+                </div>
+            </div>
+
+            <p class="clear"><br /></p>
+
             <div class="weight-size-fields">
                 <p>Please enter the coin's weight and size.</p>
                 <p id="nickel-added">Nickel Added!</p>
                 <p id="dime-added">Dime Added!</p>
                 <p id="quarter-added">Quarter Added!</p>
-                <p id="coin-invalid" class="error">Please enter a valid coin. We only accept nickels, dimes, and quarters.
+                <p id="coin-invalid" class="error">
+                    Please enter a valid coin. We only accept nickels, dimes, and quarters.
                     For more information on coin sizes, click <a target="_blank" href="https://www.supermoney.com/dime-weigh/#:~:text=How%20much%20do%20quarters%2C%20nickels,a%20thickness%20of%201.52%20mm.">here</a>.
                 </p>
-                
-                <label>Weight (grams) >></label><input id="coin-weight" type="text"/><br/>
-                <label>Diameter (mm) >></label><input id="coin-size" type="text"/><br/>
+
+                <label>Weight (grams) >></label><input id="coin-weight" type="text" /><br />
+                <label>Diameter (mm) >></label><input id="coin-size" type="text" /><br />
             </div>
-            
+
             <p class="clear"><br /></p>
 
             <nav class="site clear">
@@ -55,13 +73,23 @@
 </div>
 
 @section scripts {
-    <script> 
+    <script>
         $(document).ready(function () {
-            document.getElementById("insert-coin-button").addEventListener("click", function() {
+            document.getElementById("insert-coin-button").addEventListener("click", function () {
                 insertCoin(0);
             });
             document.getElementById("coin-weight").addEventListener("change", showCoinInfo);
             document.getElementById("coin-size").addEventListener("change", showCoinInfo);
+
+            document.getElementById("coke").addEventListener("click", function () {
+                processPurchase(1);
+            });
+            document.getElementById("crisps").addEventListener("click", function () {
+                processPurchase(0.5);
+            });
+            document.getElementById("candy").addEventListener("click", function () {
+                processPurchase(0.65);
+            });
 
             window.balance = 0;
 
@@ -77,8 +105,10 @@
 
                 if (!processCoin(coinWeight.val(), coinSize.val())) {
                     $('#coin-invalid').show();
+                    $('#coin-insert').text('Balance: ' + Math.round(window.balance * 100) / 100);
                 } else {
                     $('#coin-invalid').hide();
+                    $('#coin-insert').text('Balance: ' + Math.round(window.balance * 100) / 100);
                 }
             }
 
@@ -118,6 +148,21 @@
             function clearFields() {
                 $('#coin-weight').val('');
                 $('#coin-size').val('');
+            }
+
+            //TODO: The product price should be retrived via the ProductId on the ViewModel, this is demo data
+            function processPurchase(productPrice) {
+                if (productPrice > window.balance) {
+                    $('#coin-insert').text('PRICE: $' + productPrice);
+                } else {
+                    $('#coin-insert').text('THANK YOU. Please take your change of $' + calculateChange(productPrice).toString());
+                    window.balance = 0;
+                }
+            }
+
+            function calculateChange(price) {
+                var change = window.balance - price;
+                return Math.round(change * 100) / 100;
             }
         });
     </script>
