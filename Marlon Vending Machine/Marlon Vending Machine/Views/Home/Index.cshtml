@@ -4,17 +4,51 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome to Marlon's vending machine</h1>
-    <p class="testy">Enjoy!</p>
+    <h1 class="display-4">Welcome to Marlon's Vending Machine</h1>
     
-    <div>
+    <div class="overlay"></div>
+    <div class="scanline"></div>
+    <div class="wrapper">
+        <div class="content clearfix">
 
+            <header class="flex site clearfix">
+                <div class="col one">
+                    <img src="https://media-exp1.licdn.com/dms/image/D4E03AQEcDTbjIizRPg/profile-displayphoto-shrink_400_400/0/1669375061863?e=1675296000&v=beta&t=XhjPFtVMR-m6zdxhYH0c-bYyH85GLhcUWPjN03Fo9pg" alt="Marlon" width="740" height="729" id="logo-v" />
+                </div>
+                <div class="col two">
+                    <p>This vending machine will accept money, make change, maintain inventory, and dispense products. All the things that you might expect a vending machine to accomplish.</p>
+                </div>
+            </header>
+            
+            <form>
+                <label>Name >></label><input type="text" /><br />
+                <label>Email >></label><input type="text" /><br />
+                <label>Subject >></label><input type="text" /><br />
+                <label>Message >></label><textarea id="text" rows="1"></textarea><br /><br /><br />
+                <input type="submit" value="Submit" />
+                <a class="button" alt="" href="index.html">Cancel</a>
+            </form>
+            
+            <p class="clear"><br /></p>
+
+            <nav class="site clear">
+                <ul>
+                    <li><a href="#" title="">Home</a></li>
+                    <li><a target="_blank" href="https://github.com/marlonscloud/vending-machine-oxford-economics" title="">Marlon's' Github</a></li>
+                    <li><a target="_blank" href="https://github.com/guyroyse/vending-machine-kata" title="">Original Kata Github</a></li>
+                </ul>
+            </nav>
+
+            <p>Demo project written by Marlon Dedakis</p>
+        </div>
     </div>
-    
-    @*@foreach(var product in Model)
-    {
-        <p>@product.ProductId</p>
-        <p>@product.Name</p>
-        <p>@product.Price</p>
-    }*@
 </div>
+
+@section scripts {
+    <script> 
+        $(document).ready(function () {
+            $("#title").focus();
+            $("#text").autosize();
+        });
+    </script>
+}
