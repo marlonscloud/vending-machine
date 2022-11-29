@@ -1,13 +1,18 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=VT323);
 
-.vending-machine-container {
-    border: solid 1px black;
+.insert-coin-ready {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 .flex {
     display: flex;
 }
-
 
 /*Below is retrieved from a cool codepen I found :)*/
 /*https://codepen.io/mackorichardson/pen/vNMRpK*/
@@ -355,7 +360,7 @@ a.button {
     border: 1px solid #00dd00;
     clear: both;
     color: #00dd00;
-    cursor: hand;
+    cursor: pointer;
     display: inline-block;
     font-family: 'VT323', Courier;
     font-size: 1em;
