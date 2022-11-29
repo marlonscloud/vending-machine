@@ -1,8 +1,16 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    @model IEnumerable<ProductViewModel>
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome yea ok</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to Marlon's vending machine</h1>
+    <p>Enjoy!</p>
+    
+    @foreach(var product in Model)
+    {
+        <p>@product.ProductId</p>
+        <p>@product.Name</p>
+        <p>@product.Price</p>
+    }
 </div>

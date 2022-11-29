@@ -1,7 +1,11 @@
+using Marlon_Vending_Machine.Domains;
+using Marlon_Vending_Machine.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IProductsDomain, ProductsDomain>();
 
 var app = builder.Build();
 
