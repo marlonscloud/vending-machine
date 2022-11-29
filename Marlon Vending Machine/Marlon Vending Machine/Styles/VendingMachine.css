@@ -23,6 +23,18 @@
     color: red;
 }
 
+#nickel-added {
+    display: none;
+}
+
+#dime-added {
+    display: none;
+}
+
+#quarter-added {
+    display: none;
+}
+
 /*Below is retrieved from a cool codepen I found :)*/
 /*https://codepen.io/mackorichardson/pen/vNMRpK*/
 @import url(https://fonts.googleapis.com/css?family=VT323);

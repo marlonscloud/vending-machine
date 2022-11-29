@@ -8,3 +8,4 @@ Sample code written by Marlon Dedakis - 29/11/2022
 - Models > ProductViewModel contains the Name and Price of each product, since this is a demo project, the ID is generated dynamically upon retrieving the ProductId (as a GUID)
 - The list of Products is then passed as a ViewModel to the Razor view so that it can be strongly typed within the view
 - Please note accessibility has not been implemented, i.e. tabbing skips the 'Insert coin' element
+- Formatting of string and parsing on number types has not been implemented, number formats are not currently supported
