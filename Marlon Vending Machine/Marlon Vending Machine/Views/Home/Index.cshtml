@@ -29,11 +29,21 @@
                 <a class="button" alt="" href="index.html">Cancel</a>
             </form>*@
             
-            <section>
+            <div>
                 <a id="insert-coin-button" class="button">
                     <p class="insert-coin-ready">INSERT COIN</p>
                 </a>
-            </section>
+            </div>
+            
+            <div class="weight-size-fields">
+                <p>Please enter the coin's weight and size</p>
+                <p id="coin-invalid" class="error">Please enter a valid coin. We only accept nickels, dimes, and quarters.
+                    For more information on coin sizes, click <a target="_blank" href="https://www.supermoney.com/dime-weigh/#:~:text=How%20much%20do%20quarters%2C%20nickels,a%20thickness%20of%201.52%20mm.">here</a>.
+                </p>
+                
+                <label>Coin weight >></label><input id="coin-weight" type="text"/><br/>
+                <label>Coin size >></label><input id="coin-size" type="text"/><br/>
+            </div>
             
             <p class="clear"><br /></p>
 
@@ -54,9 +64,22 @@
     <script> 
         $(document).ready(function () {
             document.getElementById("insert-coin-button").addEventListener("click", insertCoin);
+            document.getElementById("coin-weight").addEventListener("change", showCoinInfo);
+            document.getElementById("coin-size").addEventListener("change", showCoinInfo);
 
             function insertCoin() {
-                alert('here we go!');
+                $('.weight-size-fields').show();
+            }
+
+            function showCoinInfo() {
+                var coinWeight = $('#coin-weight');
+                var coinSize = $('#coin-size');
+
+                if (coinWeight.val() === "" || coinSize.val() === "") {
+                    $('#coin-invalid').show();
+                } else {
+                    $('#coin-invalid').hide();
+                }
             }
         });
     </script>

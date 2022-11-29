@@ -14,9 +14,17 @@
     display: flex;
 }
 
+.weight-size-fields {
+    display: none;
+}
+
+.error {
+    display: none;
+    color: red;
+}
+
 /*Below is retrieved from a cool codepen I found :)*/
 /*https://codepen.io/mackorichardson/pen/vNMRpK*/
-
 @import url(https://fonts.googleapis.com/css?family=VT323);
 
 @keyframes scroll {
